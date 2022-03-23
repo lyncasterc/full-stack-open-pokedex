@@ -12,7 +12,7 @@ describe('Pokedex', function() {
     cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
 
-  it('Pokemon page can be opened', () => {
+  it('Individual pokemon page can be opened', () => {
     cy.contains(/pikachu/i).click()
     cy.contains(/lightning rod/i)
   })
