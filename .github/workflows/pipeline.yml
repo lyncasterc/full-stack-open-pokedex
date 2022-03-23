@@ -32,3 +32,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fullstack-pokedex-sc"
           heroku_email: "stiven.cabrera3@gmail.com"
+          healthcheck: "https://fullstack-pokedex-sc.herokuapp.com/health"
